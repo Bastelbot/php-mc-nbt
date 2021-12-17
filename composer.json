@@ -1,0 +1,24 @@
+{
+  "name": "bastelbot/php-mc-nbt",
+  "type": "library",
+  "description": "read and write named binary tag",
+  "keywords": ["nbt","named binary tag"],
+  "homepage": "https://github.com/Bastelbot/php-mc-nbt",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Robert Böser",
+          "email": "code@bastelbot.de",
+          "homepage": "https://github.com/Bastelbot",
+          "role": "Developer"
+      }
+  ],
+  "require": {
+      "php": ">=7.4.0"
+  },
+  "autoload": {
+      "psr-0": {
+          "Bastelbot\\McNBT\\": "src"
+      }
+  }
+}
